@@ -1,0 +1,50 @@
+.book-container {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 70px 10px 10px 10px;
+  }
+  
+  .book-image {
+    flex: 0 0 auto;
+    height: 50vh;
+    width: 50vw;
+    margin-right: 20px;
+  }
+  
+  .book-details {
+    flex: 1 1 auto;
+  }
+  
+  .book-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .book-author,
+  .book-date,
+  .book-price {
+    margin-bottom: 5px;
+  }
+  .book-price a{
+    text-decoration: none;
+    border: none;
+    padding: 7px;
+    width: 15%;
+    color: white;
+    background-color: blue;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  @media (max-width: 768px) {
+    .book-container {
+      flex-direction: column;
+    }
+    
+    .book-image {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  }

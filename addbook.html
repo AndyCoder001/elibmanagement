@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Library | Add Books</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/addbook.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+</head>
+<body>
+    <nav class="nav">
+        <i class="uil uil-bars navOpenBtn"></i>
+        <a href="#" class="logo">E-Library</a>
+  
+        <ul class="nav-links">
+          <i class="uil uil-times navCloseBtn"></i>
+          <li><a href="book.html">Books</a></li>
+          <li><a class="active" href="addbook.html">Add Books</a></li>
+          <li><a href="ourteam.html">Our Team</a></li>
+          <li><a href="index.html"">Login</a></li>
+        </ul>
+  
+        <i class="uil uil-search search-icon" id="searchIcon"></i>
+        
+      </nav>
+      <form action="#">
+        <label for="bookName">Name of Book:</label>
+        <input type="text" id="bookName" name="bookName" required>
+    
+        <label for="author">Author:</label>
+        <input type="text" id="author" name="author" required>
+    
+        <label for="publishDate">Publish Date:</label>
+        <input type="date" id="publishDate" name="publishDate" required>
+    
+        <label for="image">Upload Image:</label>
+        <input type="file" id="image" name="image" accept="image/*" required>
+    
+        <label for="message">Message for Us:</label>
+        <textarea id="message" name="message" rows="4"></textarea>
+    
+        <input type="submit" value="Submit">
+    </form>
+
+
+</body>
+</html>

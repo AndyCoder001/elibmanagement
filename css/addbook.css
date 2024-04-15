@@ -1,0 +1,33 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    margin-top: 50px;
+    width: 80vw;
+    max-width: 600px; 
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+label, input, textarea {
+    display: block;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+input[type="file"] {
+    margin-top: 5px;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
